@@ -1,0 +1,147 @@
+        footer {
+            min-height: 150px;
+        }
+        
+        .footer {
+            width: 100%;
+            max-width: 100%;
+            margin-top: 20px;
+            padding-bottom: 9px;
+            font-size: 12px;
+            background-color: #fff;
+            overflow: hidden;
+        }
+        
+        .footer .footer_hd,
+        .footer .footer_bd,
+        .footer .footer_ft {
+            width: 1190px;
+            margin: 7px auto 0;
+        }
+        
+        .footer ul {
+            display: flex;
+            margin-bottom: 8px;
+            line-height: 27px;
+            flex-wrap: wrap;
+        }
+        
+        .footer .footer_hd ul {
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .footer ul>li {
+            margin: 0 4px;
+            white-space: normal;
+        }
+        
+        .footer ul>li>a {
+            color: #6c6c6c;
+        }
+        
+        .footer b {
+            margin: 0 3px;
+            font-weight: 400;
+            color: #ddd;
+        }
+        
+        .footer em {
+            margin-left: 30px;
+            font-style: normal;
+            color: #9c9c9c;
+        }
+        
+        .footer span {
+            margin: 0 4px;
+            color: #9c9c9c;
+        }
+        
+        .footer .police_badge::before {
+            content: '';
+            position: absolute;
+            left: 362px;
+            width: 20px;
+            height: 20px;
+            background: url(../images/spriteSheet.jpg) no-repeat;
+            background-position: -861px 0;
+            vertical-align: middle;
+        }
+        
+        .footer .police_badge {
+            display: inline-block;
+            text-indent: 2em;
+        }
+        
+        .footer .footer_hd a:hover,
+        .footer .footer_bd a:hover {
+            color: #f40;
+        }
+        
+        .footer_ft a {
+            display: inline-block;
+            height: 40px;
+            margin-right: 15px;
+            line-height: 40px;
+            background-repeat: no-repeat;
+        }
+        
+        .footer_ft li:nth-child(1) a {
+            width: 30px;
+            background-position: 0 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(2) a {
+            width: 50px;
+            background-position: -80px 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(3) a {
+            width: 83px;
+            background-position: -140px 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(4) a {
+            width: 218px;
+            background-position: -430px 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(5) a {
+            width: 105px;
+            background-position: -650px 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(6) a {
+            width: 86px;
+            background-position: -344px 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(7) a {
+            width: 98px;
+            background-position: -760px 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(8) a {
+            width: 266px;
+            background-position: -884px 0;
+            background-image: url(../images/spriteSheet.jpg);
+            vertical-align: middle;
+        }
+        
+        .footer_ft li:nth-child(9) a {
+            width: 249px;
+            vertical-align: middle;
+        }

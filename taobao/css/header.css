@@ -1,0 +1,398 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: #3c3c3c;
+}
+
+body,
+html {
+    background: 0 36px repeat-y url(../images/bg.png);
+    background-size: cover;
+}
+
+body {
+    color: #3c3c3c;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+header .cover {
+    width: 1903px;
+}
+
+header .cover .siteNav {
+    height: 35px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+header .cover .siteNav>.container {
+    display: flex;
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px;
+    justify-content: space-between;
+}
+
+header .cover .siteNav>.container>.leftNav {
+    width: 292px;
+    height: 35px;
+    line-height: 35px;
+}
+
+header .cover .siteNav>.container>.leftNav ul li {
+    float: left;
+    line-height: 35px;
+}
+
+header .cover .siteNav>.container>.leftNav .country {
+    width: 79px;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+header .cover .siteNav>.container>.leftNav .country:hover {
+    background-color: #fff;
+}
+
+header .cover .siteNav>.container>.leftNav .country:hover .country_list {
+    display: block;
+}
+
+header .cover .siteNav>.container>.leftNav .country>span {
+    width: 48px;
+    margin-right: 7px;
+}
+
+header .cover .siteNav>.container>.leftNav .country>ul>li>i {
+    width: 12px;
+    height: 6px;
+    margin: -4px 0 0 0;
+    line-height: 6px;
+    font-size: 1px;
+    font-style: normal;
+}
+
+header .cover .siteNav>.container>.leftNav .country .country_list {
+    display: none;
+    position: relative;
+    width: 242px;
+    height: 290px;
+    margin-top: -1px;
+    margin-left: -6px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-top: none;
+    overflow: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+header .cover .siteNav>.container>.leftNav .country .country_list li {
+    width: 242px;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+header .cover .siteNav>.container>.leftNav .country .country_list li:first-child {
+    padding-top: 8px;
+}
+
+header .cover .siteNav>.container>.leftNav .country .country_list li:last-child {
+    padding-bottom: 8px;
+}
+
+header .cover .siteNav>.container>.leftNav .country .country_list li:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+header .cover .siteNav>.container>.leftNav .login {
+    width: 134px;
+    height: 35px;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+header .cover .siteNav>.container>.leftNav .login a {
+    display: block;
+    float: left;
+    margin-right: 7px;
+    color: #6c6c6c;
+    font-size: 12px;
+}
+
+header .cover .siteNav>.container>.leftNav .login a:first-child {
+    width: 60px;
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.leftNav .login a:last-child:hover {
+    width: 48px;
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.leftNav .taobao_mobile {
+    width: 79px;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+header .cover .siteNav>.container>.leftNav .taobao_mobile a {
+    display: block;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+header .cover .siteNav>.container>.leftNav .taobao_mobile a:hover {
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.rightNav {
+    width: 500px;
+    height: 35px;
+    box-sizing: border-box;
+}
+
+header .cover .siteNav>.container>.rightNav>ul {
+    width: 500px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li {
+    float: left;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li a {
+    color: #6c6c6c;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.myTaobao {
+    width: 79px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>i {
+    font-size: 6px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li {
+    height: 35px;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li:hover>a {
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.myTaobao_list {
+    display: none;
+    position: relative;
+    padding: 8px 0;
+    width: 82px;
+    margin-top: -1px;
+    margin-left: -2px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    z-index: 10001;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul:hover .myTaobao_list {
+    display: block;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.myTaobao_list li {
+    padding: 0 5px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #6c6c6c;
+    white-space: nowrap;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.myTaobao_list li:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.shoppingCar {
+    width: 72px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.shoppingCar>i {
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.shoppingCar:hover>a {
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.favorite {
+    width: 84px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.favorite>ul>li>i:first-child {
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.favorite_list {
+    display: none;
+    position: relative;
+    padding: 8px 0;
+    margin-top: -1px;
+    margin-left: -2px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul:hover .favorite_list {
+    display: block;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.favorite_list li {
+    padding: 0 5px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #6c6c6c;
+    white-space: nowrap;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.favorite_list li:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.goods_list {
+    width: 67px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.goods_list:hover a {
+    color: #f22e00;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.vertical {
+    color: #ddd;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.seller {
+    width: 103px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.seller_list {
+    display: none;
+    position: relative;
+    padding: 8px 0;
+    margin-top: -1px;
+    margin-left: -2px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    z-index: 10001;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul:hover .seller_list {
+    display: block;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.seller_list li {
+    padding: 0 5px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #6c6c6c;
+    white-space: nowrap;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.seller_list li:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+header .cover .siteNav>.container>.rightNav>ul>.service {
+    width: 79px;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.service_list {
+    display: none;
+    position: relative;
+    padding: 8px 0;
+    margin-top: -1px;
+    margin-left: -2px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    z-index: 10001;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul:hover .service_list {
+    display: block;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.service_list li {
+    padding: 0 5px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #6c6c6c;
+    white-space: nowrap;
+}
+
+header .cover .siteNav>.container>.rightNav>ul>li>ul>li>.service_list li:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+header .superbanner {
+    height: 100px;
+    background-color: #f75b62;
+    overflow: hidden;
+}
+
+header .superbanner .superbanner_inner {
+    width: 1190px;
+    height: 100%;
+    min-width: 1190px;
+    margin: 0 auto;
+}
+
+header .superbanner .superbanner_inner ul {
+    display: flex;
+}
+
+header .superbanner .superbanner_inner .tmall_logo {
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px 10px 15px;
+}
+
+header .superbanner .superbanner_inner .tmall_logo img {
+    width: 80px;
+    height: 80px;
+}
+
+header .superbanner .superbanner_inner ul .list {
+    display: flex;
+    width: 1085px;
+    margin-top: 13px;
+    z-index: 0;
+}
+
+header .superbanner .superbanner_inner ul .list ul li {
+    width: 209px;
+    height: 75px;
+    margin-right: 10px;
+}
+
+header .superbanner .superbanner_inner ul .list ul li:first-child {
+    margin-top: 3px;
+}
+
+header .superbanner .superbanner_inner ul .list ul li:last-child {
+    margin-right: 0px;
+}
